@@ -1,7 +1,7 @@
 fetch('https://cors-anywhere.herokuapp.com/https://svr135.supla.org/api/v2.3.0/channels/states', {
     method: 'GET',
     headers: {
-        'Authorization': 'Bearer TWÓJ_TOKEN_API',
+        'Authorization': 'Bearer MzgzMWY4YzZiZjE2ZGVmZjQ2YjEyYjNkZjhmZjVlOTViZjBkN2ZjYjE2NDViNjY4ZGQzZmM3MWY0NGY2MTk2YQ.aHR0cHM6Ly9zdnIxMzUuc3VwbGEub3Jn',
     }
 })
 .then(response => response.json())
