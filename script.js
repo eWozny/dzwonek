@@ -3,7 +3,7 @@ function getTemperature() {
     fetch('https://svr135.supla.org/api/v2.3.0/channels/states', {
         method: 'GET',
         headers: {
-            'Authorization': 'Bearer TWÓJ_TOKEN_API'  // Wstaw odpowiedni token API
+            'Authorization': 'Bearer MzgzMWY4YzZiZjE2ZGVmZjQ2YjEyYjNkZjhmZjVlOTViZjBkN2ZjYjE2NDViNjY4ZGQzZmM3MWY0NGY2MTk2YQ.aHR0cHM6Ly9zdnIxMzUuc3VwbGEub3Jn'  // Wstaw odpowiedni token API
         }
     })
     .then(response => response.json())
